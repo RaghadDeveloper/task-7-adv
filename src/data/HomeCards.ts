@@ -36,3 +36,29 @@ export const destinantionCards = [
       "Visit the beautiful Siena and the cities that surround it to experience ...",
   },
 ];
+
+export const servicesCards = [
+  {
+    image: "/assets/images/Service1.png",
+    title: "Bike and rickshaw rental",
+    description: "Book your quality vehicle quickly for an hour or all day!",
+  },
+  {
+    image: "/assets/images/Service2.jpg",
+    title: "Guided tour of the countryside",
+    description:
+      "Live the real Lucchese experience by visiting the suburbs by bike!",
+  },
+  {
+    image: "/assets/images/Service3.jpg",
+    title: "Taxi and NCC service",
+    description:
+      "Do you need not only a bike but also a driver? Then you have found the right place!",
+  },
+  {
+    image: "/assets/images/Service4.png",
+    title: "Bus Package",
+    description:
+      "Do you need not only a bike but also a driver? Then you have found the right place!",
+  },
+];

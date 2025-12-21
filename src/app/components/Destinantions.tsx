@@ -1,4 +1,4 @@
-import { destinantionCards } from "@/data/Destinantions";
+import { destinantionCards } from "@/data/HomeCards";
 import DestinantionCard from "./DestinantionCard";
 import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 

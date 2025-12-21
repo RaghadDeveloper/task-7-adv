@@ -28,3 +28,8 @@ export interface InfoBlockType {
   value: number;
   text: string;
 }
+export interface ServiceCardType {
+  image: string;
+  title: string;
+  description: string;
+}
