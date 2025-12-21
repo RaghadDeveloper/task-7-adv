@@ -1,4 +1,5 @@
 import AboutSec from "../components/AboutSec";
+import BookBike from "../components/BookBike";
 import Destinantions from "../components/Destinantions";
 import HomeHero from "../components/HomeHero";
 import OfferSec from "../components/OfferSec";
@@ -13,6 +14,7 @@ const Home = () => {
       <AboutSec />
       <OfferSec />
       <Services />
+      <BookBike />
     </section>
   );
 };

@@ -62,3 +62,28 @@ export const servicesCards = [
       "Do you need not only a bike but also a driver? Then you have found the right place!",
   },
 ];
+
+export const inputsFields = [
+  {
+    type: "text",
+    label: "Name and Surname",
+    placeholder: "Enter your name and surname",
+  },
+  {
+    type: "email",
+    label: "Email Address",
+    placeholder: "Enter your email address",
+  },
+  {
+    type: "text",
+    label: "Telephone Number",
+    placeholder: "Enter your telephone number",
+  },
+  {
+    label: "Service Type",
+    placeholder: "Select the service types",
+    options: ["Bike Rental", "Guided Tour", "Taxi Service", "Bus Package"],
+  },
+  { label: "Date", placeholder: "Select the date", type: "date" },
+  { label: "Time", placeholder: "Select the time", type: "time" },
+];

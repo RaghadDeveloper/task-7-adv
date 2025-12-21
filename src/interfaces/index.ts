@@ -33,3 +33,9 @@ export interface ServiceCardType {
   title: string;
   description: string;
 }
+export interface InputFieldType {
+  label: string;
+  placeholder: string;
+  type?: string;
+  options?: string[];
+}
