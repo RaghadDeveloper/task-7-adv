@@ -24,3 +24,7 @@ export interface DestinantionCardType {
   capacity: string;
   description: string;
 }
+export interface InfoBlockType {
+  value: number;
+  text: string;
+}

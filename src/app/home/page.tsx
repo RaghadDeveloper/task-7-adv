@@ -1,3 +1,4 @@
+import AboutSec from "../components/AboutSec";
 import Destinantions from "../components/Destinantions";
 import HomeHero from "../components/HomeHero";
 
@@ -7,6 +8,7 @@ const Home = () => {
       <HomeHero />
 
       <Destinantions />
+      <AboutSec />
     </section>
   );
 };
