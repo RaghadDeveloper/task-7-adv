@@ -11,3 +11,8 @@ export interface SocialLink {
   Icon: React.ElementType;
   href: string;
 }
+export interface HeroFormData {
+  Icon: React.ElementType;
+  label: string;
+  options: string[];
+}

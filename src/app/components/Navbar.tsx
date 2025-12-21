@@ -6,10 +6,10 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 
 const Navbar = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full py-5 bg-white/20 text-white">
+    <nav className="fixed w-full py-5 bg-white/20 text-white z-10">
       <div className="w-[90%] mx-auto flex items-center justify-between text-nowrap gap-3">
         <img src="/assets/icons/logo.png" alt="logo" className="w-20" />
 
