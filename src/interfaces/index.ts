@@ -16,3 +16,11 @@ export interface HeroFormData {
   label: string;
   options: string[];
 }
+export interface DestinantionCardType {
+  image: string;
+  title: string;
+  price: number;
+  date: string;
+  capacity: string;
+  description: string;
+}
