@@ -3,6 +3,7 @@ import BookBike from "../components/BookBike";
 import Destinantions from "../components/Destinantions";
 import HomeHero from "../components/HomeHero";
 import OfferSec from "../components/OfferSec";
+import Packages from "../components/Packages";
 import Services from "../components/Services";
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <OfferSec />
       <Services />
       <BookBike />
+      <Packages />
     </section>
   );
 };

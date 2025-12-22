@@ -39,3 +39,13 @@ export interface InputFieldType {
   type?: string;
   options?: string[];
 }
+export interface PackageFeature {
+  Icon: React.ElementType;
+  text: string;
+}
+export interface PackageCardType {
+  image: string;
+  title: string;
+  price: string;
+  features: PackageFeature[];
+}

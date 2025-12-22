@@ -1,3 +1,17 @@
+import { BiSupport } from "react-icons/bi";
+import { CiCalendarDate } from "react-icons/ci";
+import {
+  FaBottleWater,
+  FaHandHoldingDollar,
+  FaPersonMilitaryPointing,
+  FaPersonMilitaryRifle,
+} from "react-icons/fa6";
+import { IoBusOutline } from "react-icons/io5";
+import { LuBike, LuTicketPercent, LuTickets } from "react-icons/lu";
+import { SlLocationPin } from "react-icons/sl";
+import { TbFriends } from "react-icons/tb";
+import { TfiMapAlt } from "react-icons/tfi";
+
 export const destinantionCards = [
   {
     image: "/assets/images/Destinantion1.png",
@@ -86,4 +100,51 @@ export const inputsFields = [
   },
   { label: "Date", placeholder: "Select the date", type: "date" },
   { label: "Time", placeholder: "Select the time", type: "time" },
+];
+
+export const packageCards = [
+  {
+    image: "/assets/images/Package1.png",
+    title: "BIKE / RICKSHAW",
+    price: "10",
+    features: [
+      { Icon: CiCalendarDate, text: "Your bike for a day" },
+      { Icon: TfiMapAlt, text: "City App" },
+      { Icon: LuTicketPercent, text: "Discount on Rickshaw" },
+      { Icon: BiSupport, text: "Guaranteed Support" },
+    ],
+  },
+  {
+    image: "/assets/images/Package2.png",
+    title: "BIKE TOURS",
+    price: "30",
+    features: [
+      { Icon: LuBike, text: "A Mountain Bike Included" },
+      { Icon: FaPersonMilitaryRifle, text: "A Guide For You" },
+      { Icon: FaBottleWater, text: "Bottle of water" },
+      { Icon: BiSupport, text: "Guaranteed Support" },
+    ],
+  },
+  {
+    image: "/assets/images/Package3.png",
+    title: "BUS TRIPS",
+    price: "45",
+    features: [
+      { Icon: LuTickets, text: "Park ticket" },
+      { Icon: IoBusOutline, text: "Return bus" },
+      { Icon: TbFriends, text: "Companion" },
+      { Icon: BiSupport, text: "Guaranteed Support" },
+    ],
+  },
+  {
+    image: "/assets/images/Package4.png",
+    title: "TRANSFER ",
+    price: "10",
+    features: [
+      { Icon: FaPersonMilitaryPointing, text: "Personal Driver" },
+      { Icon: SlLocationPin, text: "Wherever You Want" },
+      { Icon: FaHandHoldingDollar, text: "At the best price" },
+      { Icon: BiSupport, text: "Guaranteed Support" },
+    ],
+  },
 ];

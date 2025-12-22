@@ -4,12 +4,14 @@ const Button = ({
   className,
   children,
 }: {
-  className: "primary" | "noBg";
+  className: "primary" | "noBg" | "border";
   children: ReactNode;
 }) => {
   const styles = {
     primary: " bg-orange-400 text-white rounded-full px-6 lg:px-12 ",
     noBg: "",
+    border:
+      " border border-orange-400 text-orange-400 rounded-full px-6 lg:px-12 font-semibold ",
   };
 
   return (
