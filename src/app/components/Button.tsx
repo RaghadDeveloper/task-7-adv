@@ -4,7 +4,7 @@ const Button = ({
   className,
   children,
 }: {
-  className: "primary" | "noBg" | "border";
+  className: "primary" | "noBg" | "border" | "whiteBorder";
   children: ReactNode;
 }) => {
   const styles = {
@@ -12,6 +12,8 @@ const Button = ({
     noBg: "",
     border:
       " border border-orange-400 text-orange-400 rounded-full px-6 lg:px-12 font-semibold ",
+    whiteBorder:
+      " border border-white text-white rounded-full px-6 lg:px-12 font-semibold ",
   };
 
   return (
