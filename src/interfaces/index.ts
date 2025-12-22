@@ -49,3 +49,8 @@ export interface PackageCardType {
   price: string;
   features: PackageFeature[];
 }
+export interface TestimonialCardType {
+  image: string;
+  name: string;
+  text: string;
+}
