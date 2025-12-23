@@ -62,3 +62,7 @@ export interface TestimonialCardType {
   name: string;
   text: string;
 }
+export interface FeatureCardType {
+  icon: string;
+  description: string;
+}

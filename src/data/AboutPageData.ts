@@ -12,3 +12,22 @@ export const aboutData = {
   ],
   page: "about",
 };
+
+export const featuresCards = [
+  {
+    icon: "/assets/icons/icon_map.png",
+    description: "Complete Packages For All Your Wishes",
+  },
+  {
+    icon: "/assets/icons/icon_experience.png",
+    description: "Over 30 Years Of Experience",
+  },
+  {
+    icon: "/assets/icons/icon_guide.png",
+    description: "Expert Guides For You",
+  },
+  {
+    icon: "/assets/icons/icon_best price.png",
+    description: "Guaranteed fun at the best price!",
+  },
+];
