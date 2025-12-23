@@ -49,6 +49,42 @@ export const destinantionCards = [
     description:
       "Visit the beautiful Siena and the cities that surround it to experience ...",
   },
+  {
+    image: "/assets/images/Destinantion1.png",
+    title: "Lucca Bike Tour",
+    price: 34,
+    date: "EVERY DAY",
+    capacity: "3-10 PP",
+    description:
+      "A tour of the city and its surroundings led by a professional guide ...",
+  },
+  {
+    image: "/assets/images/Destinantion2.png",
+    title: "Wine tasting In Tuscany",
+    price: 34,
+    date: "MONDAY",
+    capacity: "10-30 PP",
+    description:
+      "The real magic is here where you can enjoy the best Tuscan wine and eat ...",
+  },
+  {
+    image: "/assets/images/Destinantion3.jpg",
+    title: "Cinque Terre Tour",
+    price: 34,
+    date: "TO BE DECIDED",
+    capacity: "10-50 PP",
+    description:
+      "Visiting the 5 Terre is a must, and you can never go there enough ...",
+  },
+  {
+    image: "/assets/images/Destinantion4.png",
+    title: "Siena and Surroundings",
+    price: 34,
+    date: "TO BE DECIDED",
+    capacity: "5-10 PP",
+    description:
+      "Visit the beautiful Siena and the cities that surround it to experience ...",
+  },
 ];
 
 export const servicesCards = [
@@ -152,13 +188,25 @@ export const packageCards = [
 export const testimonialsCards = [
   {
     image: "/assets/images/user.png",
-    name: "Lyod Gomez",
+    name: "Lyod Gomez1",
     text:
       "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure",
   },
   {
     image: "/assets/images/user.png",
-    name: "Lyod Gomez",
+    name: "Lyod Gomez2",
+    text:
+      "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure",
+  },
+  {
+    image: "/assets/images/user.png",
+    name: "Lyod Gomez3",
+    text:
+      "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure",
+  },
+  {
+    image: "/assets/images/user.png",
+    name: "Lyod Gomez4",
     text:
       "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure",
   },

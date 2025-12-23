@@ -1,8 +1,16 @@
+"use client";
 import { destinantionCards } from "@/data/HomeCards";
 import DestinantionCard from "./DestinantionCard";
-import { GrFormNext, GrFormPrevious } from "react-icons/gr";
+import { useResponsiveSlider } from "@/hooks/useResponsiveSlider";
+import SliderButtons from "./SliderButton";
 
 const Destinantions = () => {
+  const { currentIndex, cardsToShow, handleNext, handlePrev } =
+    useResponsiveSlider(destinantionCards.length, [
+      { width: 640, cards: 2 },
+      { width: 768, cards: 4 },
+    ]);
+
   return (
     <div className="w-[90%] mx-auto mt-32">
       <div className="mb-14 flex justify-between flex-col sm:flex-row gap-4">
@@ -11,19 +19,25 @@ const Destinantions = () => {
         </h3>
 
         <div className="flex gap-5 self-end">
-          <button className="text-2xl p-2 rounded-full bg-gray-200 text-gray-500">
-            <GrFormPrevious />
-          </button>
-          <button className="text-2xl p-2 rounded-full bg-orange-400 text-white">
-            <GrFormNext />
-          </button>
+          <SliderButtons
+            type="prev"
+            handleClick={handlePrev}
+            disabled={currentIndex === 0}
+          />
+          <SliderButtons
+            type="next"
+            handleClick={handleNext}
+            disabled={currentIndex === destinantionCards.length - cardsToShow}
+          />
         </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        {destinantionCards.map((card) => (
-          <DestinantionCard key={card.title} card={card} />
-        ))}
+        {destinantionCards
+          .slice(currentIndex, currentIndex + cardsToShow)
+          .map((card) => (
+            <DestinantionCard key={card.title} card={card} />
+          ))}
       </div>
     </div>
   );
