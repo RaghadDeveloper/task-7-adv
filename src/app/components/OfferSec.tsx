@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const OfferSec = () => {
   return (
-    <div className="bg-orange-200 py-16">
+    <div className="bg-orange-200 py-16 mt-32">
       <div className="w-[90%] mx-auto relative flex justify-center lg:justify-start">
         <div className="bg-white/30 w-xl p-8 rounded-3xl flex flex-col items-center justify-center gap-8">
           <h4 className="text-3xl font-extrabold text-center">

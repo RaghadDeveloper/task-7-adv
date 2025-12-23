@@ -1,3 +1,4 @@
+import { aboutData } from "@/data/HomeHero";
 import AboutSec from "../components/AboutSec";
 import BookBike from "../components/BookBike";
 import Destinantions from "../components/Destinantions";
@@ -13,7 +14,7 @@ const Home = () => {
       <HomeHero />
 
       <Destinantions />
-      <AboutSec />
+      <AboutSec data={aboutData} />
       <OfferSec />
       <Services />
       <BookBike />

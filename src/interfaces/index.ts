@@ -16,6 +16,14 @@ export interface HeroFormData {
   label: string;
   options: string[];
 }
+export interface AboutSecData {
+  image: string;
+  subTitle: string;
+  title: string;
+  description: string;
+  aboutInfos: InfoBlockType[];
+  page: string;
+}
 export interface DestinantionCardType {
   image: string;
   title: string;

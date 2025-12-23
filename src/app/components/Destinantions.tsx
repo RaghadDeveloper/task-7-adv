@@ -4,7 +4,7 @@ import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 
 const Destinantions = () => {
   return (
-    <div className="w-[90%] mx-auto my-32">
+    <div className="w-[90%] mx-auto mt-32">
       <div className="mb-14 flex justify-between flex-col sm:flex-row gap-4">
         <h3 className="text-3xl font-extrabold">
           Explore Our Popular Destinantions
