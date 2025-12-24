@@ -4,7 +4,7 @@ import Button from "./Button";
 const PackageCard = ({ card }: { card: PackageCardType }) => {
   const { image, title, price, features } = card;
   return (
-    <div className="border border-gray-200 rounded-3xl">
+    <div className="border border-gray-200 rounded-3xl transition-all hover:shadow-xl hover:scale-105">
       <img
         src={image}
         alt="Package Image"

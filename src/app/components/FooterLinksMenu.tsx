@@ -11,7 +11,7 @@ const FooterLinksMenu = ({
       <ul className="flex flex-col gap-2.5">
         {footerLinksMenu.links.map((link, index) => (
           <li key={index}>
-            <a href={link.href} className="text-lg">
+            <a href={link.href} className="text-lg hover:text-orange-300">
               {link.Icon ? (
                 <div className="flex items-center gap-2">
                   <link.Icon className="text-orange-400" />

@@ -4,7 +4,7 @@ const TestimonialCard = ({ card }: { card: TestimonialCardType }) => {
   const { image, name, text } = card;
 
   return (
-    <div className="p-7.5 border border-gray-300 rounded-3xl flex flex-col items-center text-center">
+    <div className="p-7.5 border border-gray-300 rounded-3xl flex flex-col items-center text-center transition-all hover:shadow-xl hover:scale-105">
       <img
         src={image}
         alt="user image"

@@ -26,7 +26,7 @@ const HomeHero = () => {
             ))}
           </div>
 
-          <button className="bg-orange-400 text-white p-4 text-4xl flex justify-center items-center rounded-xl cursor-pointer w-fit end-self-center">
+          <button className="bg-orange-400 text-white p-4 text-4xl flex justify-center items-center rounded-xl cursor-pointer w-fit end-self-center  hover:opacity-80">
             <FiSearch />
           </button>
         </form>

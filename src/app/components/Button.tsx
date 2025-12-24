@@ -18,7 +18,10 @@ const Button = ({
 
   return (
     <button
-      className={styles[className] + "p-2 lg:py-2.5 lg:px-3 cursor-pointer"}
+      className={
+        styles[className] +
+        "p-2 lg:py-2.5 lg:px-3 cursor-pointer hover:opacity-80"
+      }
     >
       {children}
     </button>
