@@ -46,6 +46,7 @@ export interface InputFieldType {
   placeholder: string;
   type?: string;
   options?: string[];
+  name: string;
 }
 export interface PackageFeature {
   Icon: React.ElementType;

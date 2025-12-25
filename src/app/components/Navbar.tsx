@@ -7,12 +7,14 @@ import { IoMdClose } from "react-icons/io";
 import { usePathname } from "next/navigation";
 import { navLinks } from "@/data/Navbar";
 import Login from "./Login";
+import SignUp from "./SignUp";
 
 const Navbar = () => {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [openLoginIn, setOpenLogin] = useState(false);
+  const [openLogin, setOpenLogin] = useState(false);
+  const [openSignUp, setOpenSignUp] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -59,7 +61,9 @@ const Navbar = () => {
               <Button className="noBg" onClick={() => setOpenLogin(true)}>
                 Login
               </Button>
-              <Button className="primary">Sign Up</Button>
+              <Button className="primary" onClick={() => setOpenSignUp(true)}>
+                Sign Up
+              </Button>
             </div>
           </div>
 
@@ -108,7 +112,24 @@ const Navbar = () => {
           )}
         </div>
       </nav>
-      {openLoginIn && <Login onClose={() => setOpenLogin(false)} />}
+      {openLogin && (
+        <Login
+          onClose={() => setOpenLogin(false)}
+          openSignUp={() => {
+            setOpenLogin(false);
+            setOpenSignUp(true);
+          }}
+        />
+      )}
+      {openSignUp && (
+        <SignUp
+          onClose={() => setOpenSignUp(false)}
+          openLogin={() => {
+            setOpenSignUp(false);
+            setOpenLogin(true);
+          }}
+        />
+      )}
     </>
   );
 };

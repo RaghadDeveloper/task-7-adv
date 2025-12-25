@@ -118,24 +118,28 @@ export const inputsFields = [
     type: "text",
     label: "Name and Surname",
     placeholder: "Enter your name and surname",
+    name: "name",
   },
   {
     type: "email",
     label: "Email Address",
     placeholder: "Enter your email address",
+    name: "email",
   },
   {
     type: "text",
     label: "Telephone Number",
     placeholder: "Enter your telephone number",
+    name: "phone",
   },
   {
     label: "Service Type",
     placeholder: "Select the service types",
     options: ["Bike Rental", "Guided Tour", "Taxi Service", "Bus Package"],
+    name: "service",
   },
-  { label: "Date", placeholder: "Select the date", type: "date" },
-  { label: "Time", placeholder: "Select the time", type: "time" },
+  { label: "Date", placeholder: "Select the date", type: "date", name: "date" },
+  { label: "Time", placeholder: "Select the time", type: "time", name: "time" },
 ];
 
 export const packageCards = [
@@ -189,25 +193,21 @@ export const testimonialsCards = [
   {
     image: "/assets/images/user.png",
     name: "Lyod Gomez1",
-    text:
-      "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure",
+    text: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure",
   },
   {
     image: "/assets/images/user.png",
     name: "Lyod Gomez2",
-    text:
-      "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure",
+    text: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure",
   },
   {
     image: "/assets/images/user.png",
     name: "Lyod Gomez3",
-    text:
-      "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure",
+    text: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure",
   },
   {
     image: "/assets/images/user.png",
     name: "Lyod Gomez4",
-    text:
-      "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure",
+    text: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure",
   },
 ];

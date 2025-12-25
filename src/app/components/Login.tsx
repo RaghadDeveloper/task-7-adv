@@ -5,7 +5,13 @@ import Button from "./Button";
 import { FcGoogle } from "react-icons/fc";
 import AuthLayout from "./AuthLayout";
 
-const Login = ({ onClose }: { onClose: () => void }) => {
+const Login = ({
+  onClose,
+  openSignUp,
+}: {
+  onClose: () => void;
+  openSignUp: () => void;
+}) => {
   return (
     <AuthLayout onClick={onClose}>
       <div className="flex justify-between items-center">
@@ -31,7 +37,10 @@ const Login = ({ onClose }: { onClose: () => void }) => {
       </div>
 
       <p className="text-center">
-        Don’t have an account ? <span className="text-orange-400">Sign Up</span>
+        Don’t have an account ?{" "}
+        <span className="text-orange-400 cursor-pointer" onClick={openSignUp}>
+          Sign Up
+        </span>
       </p>
     </AuthLayout>
   );
