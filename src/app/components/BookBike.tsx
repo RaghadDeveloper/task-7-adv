@@ -6,12 +6,12 @@ const BookBike = () => {
   return (
     <div className="bg-orange-200 py-16">
       <div className="w-[90%] mx-auto relative flex justify-center lg:justify-start">
-        <div className="w-1/2 min-w-lg">
+        <div className="min-w-87.5 sm:w-1/2 sm:min-w-lg">
           <h4 className="text-3xl font-extrabold mb-9 text-center">
             Book Now Bike
           </h4>
-          <form className="bg-white/30 py-7.5 px-8.5 rounded-3xl flex flex-col gap-7.5 items-center">
-            <div className="grid grid-cols-2 gap-7.5 w-full">
+          <form className="w-full bg-white/30 py-7.5 px-8 rounded-3xl flex flex-col gap-7.5 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-7.5 w-full">
               {inputsFields.map((field, index) => (
                 <InputField key={index} field={field} />
               ))}
