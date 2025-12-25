@@ -5,7 +5,7 @@ const InputField = ({ field }: { field: InputFieldType }) => {
   const styles = {
     label: "font-semibold text-lg",
     field:
-      "bg-white rounded-lg px-6 py-3.5 focus:outline-none focus:ring focus:ring-orange-400 focus:ring-2",
+      "bg-white rounded-lg px-6 py-3.5 focus:outline-none border border-gray-300 focus:ring focus:ring-orange-400 focus:ring-2",
   };
 
   return (
