@@ -10,7 +10,7 @@ const AboutHero = () => {
       />
 
       <div className="w-4xl flex flex-col gap-6 items-center">
-        <h1 className="text-white text-7xl mb-6">
+        <h1 className="text-white text-7xl mb-6 font-great-vibes font-semibold">
           Our team cares about your full relax
         </h1>
         <p className="font-bold text-2xl text-white">

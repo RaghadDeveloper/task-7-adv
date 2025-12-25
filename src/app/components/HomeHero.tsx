@@ -12,7 +12,9 @@ const HomeHero = () => {
         className=" h-full sm:h-screen w-full object-cover absolute -z-10"
       />
 
-      <h1 className="text-white text-7xl mb-4 mt-35">Enjoy in the best way!</h1>
+      <h1 className="text-white text-7xl mb-4 mt-35 font-great-vibes font-semibold">
+        Enjoy in the best way!
+      </h1>
       <p className="text-white text-2xl font-bold mb-24">
         Enjoy our services for your trip anytime
       </p>
